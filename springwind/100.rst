@@ -1,6 +1,9 @@
 From 1 to 100
 =============
 
+Source: http://pyvideo.org/pycon-za-2017/growing-pains-scaling-a-django-project-and-team.html
+
+
 Scaling code
 ------------
 => A fight against complexity.
@@ -30,6 +33,7 @@ all your velocity.
 Your architecture is never finished and fixed.
 
 **Clean all the things**
+
 * Rule: Always leave code cleaner than when you found it.
 * Flake CI
 * Conduct refactorathons
@@ -37,30 +41,37 @@ Your architecture is never finished and fixed.
 
 
 **Review all the things**
+
 * Code review is critical
 * Conduct 10% design reviews 
 
 
 Growth and Infrastructure: Fighting scale
 -----------------------------------------
-* Webserver: Nginx
-* App: Django + Gunicorn
-* DB: PostgreSQL
 
-The site is getting slow. We have to improve:
-* Cache: Redis
-* Background Processing: Celery
-* Task Queue: RabbitMQ
+- Webserver: Nginx
+- App: Django + Gunicorn
+- DB: PostgreSQL
+
+The site is getting slow. We have to improve
+
+
+- Cache: Redis
+- Background Processing: Celery
+- Task Queue: RabbitMQ
 
 The machines can't keep up with the load:
+
 * Workers: Multiple Django Workers
 * Replicas: Read-Replicas
 
 Reports are getting slow:
+
 * Data Warehouse: Elastic Search (bad for primary data)
 * Stream Processing: Kafka (Streaming Plattform)
 
 Type of data in database:
+
 * Binary DB data: riak ("blob" database)
 
 Data does not fit into your PostgreSQL table anymore:
@@ -68,7 +79,8 @@ Data does not fit into your PostgreSQL table anymore:
 
 
 **Important:** 
-* Build DevOps capacity
+
+- Build DevOps capacity
 * Get to know your tools well! Really well!
 * Monitor all the things (update, servers with Datadog + Pingdom)
 * Record all the things (logs, ELK, datatig)

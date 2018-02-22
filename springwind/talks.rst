@@ -1,12 +1,18 @@
 Talks
 =====
 
+Postgres
+--------
+* https://www.youtube.com/watch?v=fva7qn9Yg3o
+
+Unsorted
+--------
+
 
 https://www.youtube.com/watch?v=4LpaxvKsSlo (end-to-end Django)
 https://www.youtube.com/watch?v=gCNj8mMoq38 (django distributed)
+https://www.youtube.com/watch?v=gCNj8mMoq38 (Taking Django Distributed by Andrew Godwin)
 
-
-http://pyvideo.org/pycon-za-2017/growing-pains-scaling-a-django-project-and-team.html
 http://pyvideo.org/pycon-pune-2017/django-on-steroids-lessons-from-scale.html
 http://pyvideo.org/pycon-uk-2016/distributed-systems-from-scratch-lessons-learned-the-hard-way.html
 http://pyvideo.org/kiwi-pycon-2015/you-dont-care-about-efficiency-synchronous-code.html

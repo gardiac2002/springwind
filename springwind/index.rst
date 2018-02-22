@@ -12,7 +12,21 @@ Contents:
    :maxdepth: 2
 
   100
+  steroids
+  articles
+  tools
+
   talks
+
+
+Postgres
+--------
+
+.. toctree::
+   :maxdepth: 2
+
+  postgres/forhumans
+
 
 Indices and tables
 ==================
