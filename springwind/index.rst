@@ -9,7 +9,7 @@ Welcome to springwind's documentation!
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
   100
   steroids
@@ -23,7 +23,7 @@ Postgres
 --------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
   postgres/forhumans
 
