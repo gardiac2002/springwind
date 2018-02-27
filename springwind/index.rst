@@ -19,6 +19,15 @@ Contents:
   talks
 
 
+Django
+------
+
+.. toctree::
+   :maxdepth: 1
+
+  django/basics
+
+
 Performance
 -----------
 
