@@ -19,6 +19,24 @@ Contents:
   talks
 
 
+Performance
+-----------
+
+.. toctree:: 
+   :maxdepth: 1
+
+  performance/basics
+
+
+Caching
+-------
+
+.. toctree::
+   :maxdepth: 1
+  
+  caching/basics
+
+
 Postgres
 --------
 
