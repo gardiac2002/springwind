@@ -55,6 +55,15 @@ Postgres
   postgres/forhumans
 
 
+RabbitMQ
+--------
+
+.. toctree::
+   :maxdepth: 1
+
+  rabbitmq/basics
+
+
 Indices and tables
 ==================
 
